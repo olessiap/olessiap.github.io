@@ -215,6 +215,22 @@ col-12 {
     font-weight:200;
 }
 
+
+/* CONTACT */
+
+.contact {
+    background-color:#333;
+    padding:80px;
+}
+
+.contact-info {
+    display: inline-block;
+}
+
+h3 {
+    color:white;
+}
+
 @media only screen and (max-width:399px) {
     /* .home-page h1 {
         color: orange;
@@ -249,6 +265,14 @@ col-12 {
     .skills-li {
         padding-left:10px;
         padding-right:8px;
+    }
+
+    .motoP {
+        font-size:20px;
+    }
+
+    .gmp p {
+        font-size:20px;
     }
 }
 
