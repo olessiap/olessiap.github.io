@@ -5,6 +5,10 @@ body {
     color:grey;
 }
 
+ul {
+    padding-top:35px;
+}
+
 /*NAVIGATION*/
 
 .navbar-transparent {
@@ -100,28 +104,40 @@ body {
 
 }
 
+.gmp p {
+    font-style: italic;
+    font-size:35px;
+    font-weight:200;
+    margin-bottom:40px;
+    text-align:center;
+    color:grey;
+}
+
 h2 {
-    font-family: 'Patua One';
-    font-size:100px;
+    font-size:35px;
     color: grey;
     text-align:center;
     margin:0px;
     padding-top:40px;
     padding-bottom:40px;
 }
-.gmp p {
-    font-style: italic;
-    font-size:35px;
-    font-weight:200;
-    margin-top: 0px;
-    margin-bottom:40px;
-    text-align:center;
-    color:grey;
+
+#gmpp h2 {
+    padding-bottom: 5px;
 }
 
 col-12 {
     padding-right:100px;
 }
+#gmpp li {
+    font-size:15px;
+    color: grey;
+    list-style-type:none;
+    font-weight: 600;
+    padding-right:50px;
+    padding-bottom:40px;
+}
+
 .gmp li {
     font-size:15px;
     color: grey;
@@ -129,13 +145,6 @@ col-12 {
     font-weight: 100;
     padding-right:50px;
     padding-bottom:8px;
-}
-
-.separator {
-    width:200px;
-    border: .5px solid rgb(177, 177, 177);
-    float: center;
-    
 }
 
 .gmp-box {
@@ -208,11 +217,11 @@ col-12 {
 }
 
 .motoP {
-    font-size:15px;
+    font-size:25px;
     text-align:center;
     font-style: italic;
-    font-size:35px;
     font-weight:200;
+    padding: 0px 50px;
 }
 
 
@@ -256,6 +265,11 @@ h3 {
 
     h2 {
         font-size:50px;
+        color: grey;
+        text-align:center;
+        margin:0px;
+        padding-top:40px;
+        padding-bottom:40px;
     }
 
     .gmp p {
@@ -268,7 +282,9 @@ h3 {
     }
 
     .motoP {
-        font-size:20px;
+        font-size:15px;
+        font-weight:600;
+        padding: 0px;
     }
 
     .gmp p {
