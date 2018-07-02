@@ -240,6 +240,10 @@ h3 {
     color:white;
 }
 
+h3:hover {
+    color:darkseagreen;
+}
+
 @media only screen and (max-width:399px) {
     /* .home-page h1 {
         color: orange;
