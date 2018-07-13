@@ -115,7 +115,7 @@ h2 {
     text-align:center;
     margin:0px;
     padding-top:40px;
-    padding-bottom:40px;
+    padding-bottom:30px;
 }
 
 #gmpp h2 {
@@ -209,6 +209,55 @@ col-12 {
     padding-right:80px;
 }
 
+/* SERVICES */ 
+
+.services-container {
+    padding:0px;
+}
+.services h2 {
+    font-size:68px;
+    color:black;
+    text-align:center;
+}
+
+.services p {
+    font-size:18px;
+    color:grey;
+    text-align:center;
+    margin: 0px 200px 0px 200px;
+    padding-bottom:50px;
+}
+
+.services-row {
+    display:inline-flex;
+    text-align:center;
+}
+.col-4 {
+    height:330px;
+    width:240px;
+    background-color:darkseagreen;
+    border:1px solid grey;
+    margin-right:75px;
+    border-radius:10px;
+}
+
+.services h3 {
+    font-size:25px;
+    color:black;
+}
+
+.services {
+    padding:10px;
+    color:black;
+    text-align:left;
+    padding:20px 15px 10px 35px;
+    font-size: 14px;
+    font-weight:200;
+}
+
+.col-4:hover {
+    opacity:30;
+}
 /* MOTO */
 
 .moto {
@@ -240,9 +289,10 @@ h3 {
     color:white;
 }
 
-h3:hover {
-    color:darkseagreen;
-}
+
+
+/* MEDIA QUIERY  */
+
 
 @media only screen and (max-width:399px) {
     /* .home-page h1 {
@@ -273,7 +323,7 @@ h3:hover {
         text-align:center;
         margin:0px;
         padding-top:40px;
-        padding-bottom:40px;
+        padding-bottom:20px;
     }
 
     .gmp p {
@@ -293,6 +343,24 @@ h3:hover {
 
     .gmp p {
         font-size:20px;
+    }
+
+    .services p {
+        margin: 0;
+    }
+
+    .services h2 {
+        font-size:55px;
+    }
+
+    .services-row {
+        display:block;
+    }
+    
+    .col-4 {
+        height:290px;
+        width:299px;
+        margin: 0px 0px 35px 0px;
     }
 }
 
