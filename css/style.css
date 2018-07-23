@@ -63,6 +63,21 @@ body {
 	color:#fff !important;
 }
 
+.navbar-left {
+    background: url(../img/gmpLogo2.png);
+    background-repeat: no-repeat;
+    /* width:60px; */
+}
+.gmp-logo {
+    width:50px;
+}
+
+.navbar-left li {
+    font-size: 25px;
+}
+/* .navbar-left li {
+    font-size:40px;
+} */
 /* HOME PAGE */
 
 .home-page {
@@ -80,13 +95,13 @@ body {
 
 .home-page h1 {
     text-align: center;
-    padding-top: 140px;
-    font-size:120px;
+    padding-top: 165px;
+    font-size:85px;
     text-shadow: 7px -5px 24px rgba(144, 150, 150, 0.88)
 }
 
 .home-page p {
-    font-size: 27px;
+    font-size: 22px;
     text-shadow: 7px -5px 24px rgba(144, 150, 150, 0.88);
     text-align:center;
 }
@@ -287,6 +302,7 @@ col-12 {
 
 h3 {
     color:white;
+    padding-top:15px;
 }
 
 
