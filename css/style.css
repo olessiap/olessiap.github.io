@@ -1,3 +1,7 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -202,25 +206,55 @@ col-12 {
 /* SKILLS */ 
 
 .skills {
-    background-color:#f8f8f9;
+    background: url(../img/skills-s.jpg);
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-.skills-box i {
-    padding-left: 0px;
-    padding-bottom:42px;
+.skills h2 {
+    color:white;
+    font-weight:600;
 }
-
-.skills-box i:last-of-type {
-    line-height:2;
-}
-
 .skills p {
-    text-align: center;
+    color:white;
+    font-weight:400;
+    font-size:28px;
 }
 
-.skills-li {
-    padding-left:100px;
-    padding-right:80px;
+.skill {
+    background: white;
+    width: 22%;
+    height: 100px;
+    margin-left: 70px;
+    border-radius: 5%;
+}
+.skill-tiles {
+    margin-bottom:80px;
+    margin-top:80px;
+}
+
+.col-md-12 {
+    background:white;
+    border-radius:5%;
+    width:85%;
+    margin-left:40px;
+}
+
+h5 {
+    text-align:center;
+    font-weight:600;
+    padding-top:10px;
+}
+
+h6 {
+    text-align:center;
+}
+
+.skills-box ul {
+    padding:15px 0px 15px 15px;
+    line-height:1.6;
 }
 
 /* SERVICES */ 
@@ -352,9 +386,16 @@ h3 {
         font-size: 25px;
     }
 
-    .skills-li {
-        padding-left:10px;
-        padding-right:8px;
+    .skill {
+        width: 70%;
+        height: 100px;
+        margin-left: 70px;
+        border-radius: 5%;
+    }
+
+    .skill-tiles {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .motoP {
