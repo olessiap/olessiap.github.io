@@ -229,6 +229,7 @@ col-12 {
     height: 100px;
     margin-left: 70px;
     border-radius: 5%;
+    box-shadow: 2px 3px 7px 0px grey;
 }
 .skill-tiles {
     margin-bottom:80px;
@@ -237,9 +238,10 @@ col-12 {
 
 .col-md-12 {
     background:white;
-    border-radius:5%;
+    border-radius: 2%;
     width:85%;
     margin-left:40px;
+    box-shadow: 2px 3px 7px 0px grey;
 }
 
 h5 {
@@ -285,9 +287,10 @@ h6 {
     height:330px;
     width:240px;
     background-color:darkseagreen;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     margin-right:75px;
     border-radius:10px;
+    box-shadow: 2px 3px 7px 0px grey;
 }
 
 .services h3 {
